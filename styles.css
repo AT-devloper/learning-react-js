@@ -1,0 +1,53 @@
+body{
+    background-image: url("images/back.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+#btn{
+    padding: 5px;
+    border-bottom: 5px solid black;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: wheat;
+    font-family: 'Trebuchet MS';
+}
+
+#fm{
+    color: aliceblue;
+}
+input{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.container1{
+    margin: auto;
+    border: 3px solid red;
+    border-radius: 20px;
+    width: 450px;
+    padding: 30px;
+    background-color:skyblue;
+}
+#count1{
+    color: red;
+}
+#count2{
+    color: green;
+}
+#count3{
+    color: blue;
+}
+
+
+.bot{
+    position: absolute;
+    top: 600px;
+    left: 120px;
+    color:lightgrey;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
