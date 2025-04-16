@@ -34,7 +34,7 @@ const ans=mydata.map((key)=>{
         <h1>-: Display Page :-</h1>
         <hr/>
 
-        <table border="2" width="400">
+        <table border="2" width="400" >
             <tr>
                 <th>Name</th>
                 <th>EmpNo.</th>

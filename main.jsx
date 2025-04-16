@@ -3,6 +3,13 @@ import App from './App.jsx';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Usercon from './usercontext.jsx';
+
 import "./styles.css";
 
-createRoot(document.getElementById('root')).render(<App />)
+createRoot(document.getElementById('root')).render(
+<Usercon>
+<App />
+</Usercon>
+
+)

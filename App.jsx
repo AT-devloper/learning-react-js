@@ -1,14 +1,16 @@
-import Out from "./Task/out";
 
+import Cont from "./16apluserco";
 
 const App=()=>{
     return(
         <>
+        <br/>
 
+        <h1>Hellow ....</h1>
 
-       <Out />
-
-
+        <br/>
+        
+        <Cont />
         </>
     )
 }

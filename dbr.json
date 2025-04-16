@@ -6,6 +6,20 @@
       "Emno": 1,
       "City": "bhpl",
       "Salery": 40000
+    },
+    {
+      "id": "4b75",
+      "name": "Ayush poddar",
+      "emno": "1",
+      "city": "Bhopal",
+      "salary": "34567"
+    },
+    {
+      "id": "9bac",
+      "name": "Ayush poddar",
+      "emno": "3",
+      "city": "Bhopal",
+      "salary": "34567"
     }
   ]
 }
