@@ -55,8 +55,9 @@ let sno=0;
         </tr>
       </>
     )
-  })
-    return(
+  });
+
+  return(
         <>
          <h1> Update Page</h1>
           <Table striped bordered hover>
@@ -67,8 +68,8 @@ let sno=0;
           <th> Name</th>
           <th>Designation</th>
           <th> Salary</th>
-          <th></th>
-          <th></th>
+          <th>Delete</th>
+          <th>Edit</th>
         </tr>
       </thead>
       <tbody>
@@ -77,7 +78,6 @@ let sno=0;
       </Table>
          <ToastContainer />
         </>
-    )
-}
+  )}
 
 export default Update;

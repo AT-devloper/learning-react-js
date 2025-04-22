@@ -17,6 +17,7 @@ const std=stud.map((key)=>{
 
     const mystatus=key.name.includes(name);
     if(mystatus)
+        
     return(
         <>
         <tr>
@@ -27,16 +28,7 @@ const std=stud.map((key)=>{
         </tr>       
         </>
     )
-}
-
-)
-
-
-
-
-
-
-
+    })
 
     return(
         <>
@@ -60,7 +52,6 @@ const std=stud.map((key)=>{
 
         </table>
         </>
-    )
-}
+    )}
 
 export default Search;

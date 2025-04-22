@@ -47,10 +47,13 @@ const Insert=()=>{
         <Form.Label>Enter Salary</Form.Label>
         <Form.Control type="text" name="salary" value={input.salary} onChange={handleInput} />
       </Form.Group>
+
       <Button variant="primary" type="submit" onClick={handleSubmit}>
         Submit
       </Button>
+
     </Form>
+    
     </div>
     <ToastContainer />
         </>
