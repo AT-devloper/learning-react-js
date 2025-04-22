@@ -1,12 +1,9 @@
 body{
-    background-image: url("images/back.jpg");
+    background: url("");
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
-    font-family:" ";
-    
 }
 #btn{
     padding: 5px;

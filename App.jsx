@@ -1,5 +1,9 @@
-import Lo from "./Classes/21apllogin";
-import Ot from "./CRUD1/ot";
+
+import Ref3 from "./ref3";
+import Ref2 from "./useref2";
+
+
+
 
 
 const App=()=>{
@@ -7,12 +11,11 @@ const App=()=>{
         <>
         <br/>
 
-        <h3>MY_webApp</h3>
-        
-        <Lo/>
+        <h3>MY_webApp</h3> 
 
         <br/>
-        
+
+        <Ref3/>
        
         </>
     )
