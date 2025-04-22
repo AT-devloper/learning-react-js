@@ -5,6 +5,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     color: white;
+    font-family:" ";
     
 }
 #btn{
@@ -20,7 +21,9 @@ body{
     color: aliceblue;
 }
 input{
+    background:rgba(189, 102, 247, 0.734) ;
     border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
@@ -42,12 +45,16 @@ input{
     color: blue;
 }
 
-
-.bot{
-    position: absolute;
-    top: 600px;
-    left: 120px;
-    color:lightgrey;
+button{
+    border-radius: 20px;
+}
+#bom{
+    padding-left: 40px;
+}
+#tb{
     font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
+
+}
+#tb1{
+    font-size: 22px;
 }

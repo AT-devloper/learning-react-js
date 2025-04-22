@@ -1,25 +1,60 @@
 {
-  "Employ": [
+  "student": [
     {
-      "id": "zx11",
-      "Name": "a1",
-      "Emno": 1,
-      "City": "bhpl",
-      "Salery": 40000
+      "roll": 1,
+      "name": "Ayush",
+      "city": "bhopal",
+      "fee": "45000",
+      "id": "3919"
     },
     {
-      "id": "4b75",
-      "name": "Ayush poddar",
-      "emno": "1",
-      "city": "Bhopal",
-      "salary": "34567"
+      "id": "1074",
+      "roll": "2",
+      "name": "Abhi ",
+      "city": "Bpl",
+      "fee": "65500"
     },
     {
-      "id": "9bac",
-      "name": "Ayush poddar",
-      "emno": "3",
-      "city": "Bhopal",
-      "salary": "34567"
+      "id": "597c",
+      "roll": "3",
+      "name": "Raj",
+      "city": "indore",
+      "fee": "54678"
+    },
+    {
+      "id": "b718",
+      "roll": "4",
+      "name": "Anshu",
+      "city": "pune",
+      "fee": "55000"
+    },
+    {
+      "id": "63d0",
+      "roll": "5",
+      "name": "rishab",
+      "city": "noida",
+      "fee": "40000"
+    },
+    {
+      "id": "90f4",
+      "roll": "6",
+      "name": "kashi",
+      "city": "patna",
+      "fee": "57000"
+    },
+    {
+      "id": "be9d",
+      "roll": "7",
+      "name": "ritik",
+      "city": "munger",
+      "fee": "51000"
+    },
+    {
+      "id": "72be",
+      "roll": "8",
+      "name": "shivam",
+      "city": "mathura",
+      "fee": "42000"
     }
   ]
 }

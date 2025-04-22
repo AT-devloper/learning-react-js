@@ -1,16 +1,19 @@
+import Lo from "./Classes/21apllogin";
+import Ot from "./CRUD1/ot";
 
-import Cont from "./16apluserco";
 
 const App=()=>{
     return(
         <>
         <br/>
 
-        <h1>Hellow ....</h1>
+        <h3>MY_webApp</h3>
+        
+        <Lo/>
 
         <br/>
         
-        <Cont />
+       
         </>
     )
 }

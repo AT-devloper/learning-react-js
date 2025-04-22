@@ -1,9 +1,9 @@
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 
 import Layout from "./1aplnav";
-import Home from "./Pages/Hom";
-import About from "./pages/About";
-import Cont from "./pages/Contact";
+import Home from "../Pages/Hom";
+import About from "../pages/About";
+import Cont from "../pages/Contact";
 
 
 const Lay=()=>{

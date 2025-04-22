@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { mycontext } from "./App";
+import { mycontext } from "../App";
 
 
 const Bho=()=>{
