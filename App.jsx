@@ -1,7 +1,4 @@
-
-import Ref3 from "./ref3";
-import Ref2 from "./useref2";
-
+import My from "./Classes/24aplusememo";
 
 
 
@@ -14,8 +11,7 @@ const App=()=>{
         <h3>MY_webApp</h3> 
 
         <br/>
-
-        <Ref3/>
+        <My/>
        
         </>
     )

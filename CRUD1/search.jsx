@@ -34,7 +34,8 @@ const std=stud.map((key)=>{
         <>
         <h1>SEARCH HERE </h1> <br/>
         <h2>
-        Enter Name :- <input type="text" value={name} on onChange={handin}  />
+        Enter Name :- <input type="text" value={name} 
+        onChange={handin}  />
         </h2>
         <br/> 
         <h4>Student Data :- </h4>

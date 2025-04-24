@@ -3,6 +3,7 @@ import { useState } from "react";
 const Search=()=>{
   const [empno, setEmpno]= useState("");
   const [mydata, setMydata]=useState([]);
+  
   const handleSubmit=async()=>{
      let api=`http://localhost:3000/employee/?empno=${empno}`;
      const response = await axios.get(api);

@@ -2,9 +2,6 @@
 import { useState } from "react";
 import axios from "axios";
 
-
-
-
 const Ins=()=>{
     const [input , setInput]=useState({})
 
