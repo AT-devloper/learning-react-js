@@ -1,7 +1,4 @@
-import My from "./Classes/24aplusememo";
-import Dume from "./Classes/usememo";
 import Umemo from "./Practice/umeno";
-
 
 
 

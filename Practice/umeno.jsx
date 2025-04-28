@@ -22,7 +22,7 @@ const Umemo=()=>{
             onChange={(e)=>{setName(e.target.value)}}/>
         </h1>
             <br/>
-        <h2>MULTIPLy BY 2 OF GIVEN AGE IS := {mymulti}</h2>
+        <h2> MULTIPLy BY 2 OF GIVEN AGE IS := {mymulti}</h2>
  
 
         </>
