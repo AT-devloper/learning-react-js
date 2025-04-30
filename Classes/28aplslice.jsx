@@ -2,21 +2,21 @@
 import { createSlice } from "@reduxjs/toolkit"
 
 
-const Slice=createSlice({
-    name:" ",
+const cSlice=createSlice({
+    name:"mycounter",
     initialState:{
-        count:0
+ cnt:0
     },
     reducers:{
         add:(state)=>{
-            state.count++;
+            state.cnt++;
         },
         sub:(state)=>{
-            state.count--;
+            state.cnt--;
         }
     }
 })
 
 
-export const {add,sub}= Slice.actions;
-export default Slice.reducer;
+export const {add, sub}= cSlice.actions;
+export default cSlice.reducer;

@@ -1,14 +1,11 @@
 
 import { configureStore } from "@reduxjs/toolkit";
-import myreducer from "./28aplslice"
-
-const store=()=> configureStore({
-    
+import myRedu from "./28aplslice"
+     
+const Store=configureStore({
         reducer:{
-            mycouter:myreducer
+            mycounter:myRedu
         }  
     })
 
-
-     
-    export default store;
+    export default Store;

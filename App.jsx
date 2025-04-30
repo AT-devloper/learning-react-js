@@ -1,18 +1,15 @@
 import Kit from "./Classes/28aplkit";
-import Umemo from "./Practice/umeno";
-
-
+import Tools from "./Practice/tools";
 
 const App=()=>{
     return(
         <>
         <br/>
-
         <h3>MY_webApp</h3> 
-
         <br/>
-       <Kit />
-       
+
+        
+
         </>
     )
 }
