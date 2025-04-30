@@ -9,7 +9,7 @@ const colorSli=createSlice({
         color:"pink"
     },
     reducers:{
-        changeColor:(state,actions)=>{
+        changeColor:(state , actions)=>{
             console.log(actions.payload)
             state.color=actions.payload
         }
