@@ -1,6 +1,8 @@
-import Pay from "./30aplpayload";
-import Kit from "./Classes/28aplkit";
-import Tools from "./Practice/tools";
+import Do from "./1maydo";
+
+
+
+
 
 const App=()=>{
     return(
@@ -9,7 +11,7 @@ const App=()=>{
         <h3>MY_webApp</h3> 
         <br/>
 
-        <Pay />
+        <Do/>
 
         </>
     )

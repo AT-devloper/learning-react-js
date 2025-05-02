@@ -18,10 +18,11 @@ body{
     color: aliceblue;
 }
 input{
-    background:rgba(189, 102, 247, 0.734) ;
-    border-top-right-radius: 20px;
+    background:rgba(202, 138, 244, 0.734) ;
+    border-radius: 6px;
+    /* border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 20px; */
 }
 
 .container1{

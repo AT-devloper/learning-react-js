@@ -6,11 +6,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-import Sto from './30aplstore.jsx';
+import Stodo from './1mayStod.jsx';
 import { Provider } from 'react-redux';
 
 createRoot(document.getElementById('root')).render(
-    <Provider store={Sto}>
+    <Provider store={Stodo}>
     <App />
     </Provider>
 

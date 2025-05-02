@@ -1,7 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { changeColor } from "./Practice/color";
-
-
 
 const colorSli=createSlice({
     name:"mycolor",
@@ -9,8 +6,8 @@ const colorSli=createSlice({
         color:"pink"
     },
     reducers:{
-        changeColor:(state , actions)=>{
-            console.log(actions.payload)
+        changColor:(state,actions)=>{
+            console.log(actions.payload);
             state.color=actions.payload
         }
     }
