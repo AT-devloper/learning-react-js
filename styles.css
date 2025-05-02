@@ -17,12 +17,18 @@ body{
 #fm{
     color: aliceblue;
 }
+#l{
+    font-size: xx-large;
+    margin-left: 35%;
+    font-weight:140px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 input{
-    background:rgba(202, 138, 244, 0.734) ;
+    background:rgba(212, 166, 242, 0.734) ;
     border-radius: 6px;
-    /* border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-left-radius: 20px; */
+    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; 
 }
 
 .container1{

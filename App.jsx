@@ -1,4 +1,4 @@
-import Do from "./1maydo";
+import Do from "./Classes/1maydo";
 
 
 
