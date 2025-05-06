@@ -12,7 +12,7 @@ const Lislic= createSlice({
         add:(state,actions)=>{
             state.work.push(actions.payload);
         },
-        removeli:(state,actions)=>{
+        remove:(state,actions)=>{
             state.work.splice(actions.payload.id, 1);
         },
         // remove:(state,actions)=>{
@@ -42,5 +42,5 @@ const Lislic= createSlice({
    
 })
 
-export const {add,removeli,Tick,Untick}=Lislic.actions;
+export const {add,remove,Tick,Untick}=Lislic.actions;
 export default Lislic.reducer;

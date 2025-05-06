@@ -1,9 +1,5 @@
 import Do from "./Classes/1maydo";
 
-
-
-
-
 const App=()=>{
     return(
         <>

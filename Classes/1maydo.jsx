@@ -1,7 +1,10 @@
 import { useState } from "react";
-import Table from 'react-bootstrap/Table';
 import { useDispatch, useSelector } from "react-redux";
-import { add ,removeli,Tick,Untick} from "./1mayli";
+import { add,remove,Tick,Untick} from "./1mayli";
+
+import Table from 'react-bootstrap/Table';
+import { MdDelete } from 'react-icons/md';
+import { FaEdit } from "react-icons/fa";
 
 const Do=()=>{
     const data=useSelector(state=>state.list.work);
@@ -11,7 +14,7 @@ const Do=()=>{
     console.log(data);
 
     let sn=0;
-    const lim=data.map((key , index)=>{
+    const lim=data.map((key,index)=>{
         sn++;
         return(
             <>
@@ -22,13 +25,15 @@ const Do=()=>{
                     (<><span style={{textDecoration:"line-through red"}}>{key.task}</span></>)
                     : (<>{key.task}</>)}
                     </td>
-                <td><button onClick={()=>{disp(removeli({id:index}))}}> Remove </button></td>
+                <td><MdDelete  className="delIcon" style={{color:"red"}} 
+                onClick={()=>{disp(remove({id:index}))}} /></td>
 
                 <td><button onClick={()=>{disp(Tick({id:key.id}))}} >Tick</button></td>
 
                 <td><button onClick={()=>{disp(Untick({id:key.id}))}} >Untick</button></td>
 
-                <td><button onClick={""} >Edit</button></td>
+                <td><FaEdit className="editIcon" style={{color:"skyblue"}} 
+                 onClick={""}  /></td>
             </tr>
             
             </>
@@ -46,9 +51,9 @@ const Do=()=>{
         <hr/>
 
         <h2 align="center">Your List-Items</h2>
-        <Table striped bordered hover>
 
-      <thead>
+        <Table striped bordered hover>
+        <thead>
             <tr align="center">
                 <th>S.No</th>
                 <th>Your-task</th>

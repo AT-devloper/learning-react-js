@@ -18,8 +18,8 @@ body{
     color: aliceblue;
 }
 #l{
+    padding-left:20px;
     font-size: xx-large;
-    margin-left: 35%;
     font-weight:140px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
