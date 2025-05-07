@@ -35,6 +35,15 @@ const Lislic= createSlice({
                     state.work[i].status=false;
                 }
             }
+        },
+        Edits:(state,actions)=>{
+            for(var i=0;i<state.work.length;i++)
+            {
+                if(state.work[i].id==actions.payload.id)
+                {
+                    state.work[i].task=actions.payload.task;
+                }
+            }
         }
       
          
@@ -42,5 +51,5 @@ const Lislic= createSlice({
    
 })
 
-export const {add,remove,Tick,Untick}=Lislic.actions;
+export const {add,remove,Tick,Untick,Edits}=Lislic.actions;
 export default Lislic.reducer;
